@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.header-logo {
+    background-image: url(images/b-logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49px;
+    height: 47px;
+    float: left;
+}
+.logo_td {
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 14px;
+}
+.logo_title {
+    color: #444444;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.logo_description {
+    color: #444444;
+    font-size: 14px;
+    font-weight: 400;
+}
+.header_nav_ul {
+    display: flex;
+}
+.header_nav_ul_item_link {
+    padding: 14px 12px 14px 12px;
+    background-color: transparent;
+    color: #444444;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+}
+.header_nav_ul_item_link:hover {
+    text-decoration: none;
+    background-color: #1bbc9b;
+    color: #ffffff;
+}
+
+.jumbotron {
+    background-image: url(images/jumbotron.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 453px;
+}
+.jumbo_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 575px;
+    margin: 0 auto;
+}
+.j_title {
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 300;
+    margin-bottom: 41px;
+}
+.strong {
+    font-weight: 700;
+}
+.j_span {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 46px;
+}
+.btn.btn-success {
+    background-color: #1bbc9b;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    margin-bottom: 42px;
+}
+.fas.fa-chevron-circle-down {
+    font-size: 50px;
+    color: #ffffff;
+}
